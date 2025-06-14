@@ -23,7 +23,7 @@ function avaliarAluno (nome, nota1, nota2, nota3){
     let media = (nota1 + nota2 + nota3)/3;
     console.log(media);
 }
-avaliarAluno(breno, 2, 3, 4);
+avaliarAluno("breno", 2, 3, 4);
 
 function conversorTemperatura (celcius){
     let fahreheit = (celcius * 1.8) + 32;
